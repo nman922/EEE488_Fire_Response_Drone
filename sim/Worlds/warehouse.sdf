@@ -16,7 +16,6 @@
       <background>0.699999988 0.699999988 0.699999988 1</background>
       <shadows>true</shadows>
     </scene>
-
     <model name='ground_plane'>
       <static>true</static>
       <link name='link'>
@@ -66,7 +65,106 @@
       <pose>0 0 0 0 0 0</pose>
       <self_collide>false</self_collide>
     </model>
-    
+    <include>
+      <uri>file://../Models/Warehouse</uri>
+      <name>warehouse</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf</name>
+      <pose>5.5 8 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_0</name>
+      <pose>5.5 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_1</name>
+      <pose>5.5 1 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_2</name>
+      <pose>5.5 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_3</name>
+      <pose>-4.5 8 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_4</name>
+      <pose>-4.5 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_5</name>
+      <pose>-4.5 1 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf</uri>
+      <name>shelf_6</name>
+      <pose>-4.5 -2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf_big</uri>
+      <name>shelf_big</name>
+      <pose>6.5 -14 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf_big</uri>
+      <name>shelf_big_0</name>
+      <pose>0.5 -14 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf_big</uri>
+      <name>shelf_big_1</name>
+      <pose>-5.5 -14 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/shelf_big</uri>
+      <name>shelf_big_2</name>
+      <pose>14.199999999999999 15 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/aws_robomaker_warehouse_ClutteringC_01</uri>
+      <name>aws_robomaker_warehouse_ClutteringC_01</name>
+      <pose>-13.784174503376324 23.640100984550706 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/aws_robomaker_warehouse_ClutteringA_01</uri>
+      <name>aws_robomaker_warehouse_ClutteringA_01</name>
+      <pose>-13.839240552891848 21.019699649653621 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/aws_robomaker_warehouse_ShelfD_01</uri>
+      <name>aws_robomaker_warehouse_ShelfD_01</name>
+      <pose>-14 17.5 0 0 0 1.55</pose>
+    </include>
+    <include>
+      <uri>file://../Models/aws_robomaker_warehouse_PalletJackB_01</uri>
+      <name>aws_robomaker_warehouse_PalletJackB_01</name>
+      <pose>3.6161569009731402 14.676875183707409 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/pallet</uri>
+      <name>pallet</name>
+      <pose>4.197596527181342 14.638484384949397 0.070000000000000007 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/aws_robomaker_warehouse_PalletJackB_01</uri>
+      <name>aws_robomaker_warehouse_PalletJackB_01_0</name>
+      <pose>-6.0372275071834771 14.796824568758481 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>file://../Models/pallet</uri>
+      <name>pallet_0</name>
+      <pose>4.20158213771502 12.308538921333312 0.070000000000000007 0 0 0</pose>
+    </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
       <cast_shadows>true</cast_shadows>
@@ -86,7 +184,5 @@
         <falloff>0</falloff>
       </spot>
     </light>
-
-    
   </world>
 </sdf>
